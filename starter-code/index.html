@@ -17,19 +17,19 @@
     <div class="panel controls">
       <ul>
         <li>
-          <button class="btn btn-pepperonni active">Pepperonni</button>
+          <button class="btn btn-pepperonni active" id="btn-pepperonni">Pepperonni</button>
         </li>
         <li>
-          <button class="btn btn-mushrooms active">Mushrooms</button>
+          <button class="btn btn-mushrooms active" id="btn-mushroom">Mushrooms</button>
         </li>
         <li>
-          <button class="btn btn-green-peppers active">Green peppers</button>
+          <button class="btn btn-green-peppers active" id ="btn-greenpepper">Green peppers</button>
         </li>
         <li>
-          <button class="btn btn-sauce active">White sauce</button>
+          <button class="btn btn-sauce active" id="btn-sauce">White sauce</button>
         </li>
         <li>
-          <button class="btn btn-crust active">Gluten-free crust</button>
+          <button class="btn btn-crust active" id="btn-queijo">Gluten-free crust</button>
         </li>
       </ul>
     </div>
@@ -41,18 +41,19 @@
 
       <b>$10 cheese pizza</b>
       <ul>
-        <li>$1 pepperonni</li>
-        <li>$1 mushrooms</li>
-        <li>$1 green peppers</li>
-        <li>$3 white sauce</li>
-        <li>$5 gluten-free crust</li>
+        <li id="pepperoni-list">$1 pepperonni</li>
+        <li id="mushroom-list">$1 mushrooms</li>
+        <li id ="greenpepper-list">$1 green peppers</li>
+        <li id ="sauce-list">$3 white sauce</li>
+        <li id ="queijo-list">$5 gluten-free crust</li>
       </ul>
-      <strong>$21</strong>
+      <strong id ="total">21</strong>
     </aside>
     <!-- End Price -->
 
     <!-- Begin Pizza -->
     <div id="pizza">
+      <div id="greenpepper-place">
       <section class="green-pepper one"></section>
       <section class="green-pepper two"></section>
       <section class="green-pepper three"></section>
@@ -74,7 +75,8 @@
       <section class="green-pepper nineteen"></section>
       <section class="green-pepper twenty"></section>
       <section class="green-pepper twenty-one"></section>
-
+    </div>
+      <div id="mushroom-place">
       <section class="mushroom one">
         <div class="cap">1</div>
         <div class="stem"></div>
@@ -234,7 +236,8 @@
         <div class="cap">31</div>
         <div class="stem"></div>
       </section>
-
+    </div>
+      <div id="pepperoni-place">
       <section class="pep one">1</section>
       <section class="pep two">2</section>
       <section class="pep three">3</section>
@@ -267,10 +270,11 @@
       <section class="pep thirty">30</section>
       <section class="pep thirty-one">31</section>
       <section class="pep thirty-three">33</section>
+    </div>
 
       <section class="crust crust-gluten-free">
-        <section class="cheese"></section>
-        <section class="sauce sauce-white"></section>
+        <section id="cheese" class="cheese"></section>
+        <section id ="sauce" class="sauce sauce-white"></section>
       </section>
     </div>
     <!-- End Pizza -->
