@@ -16,3 +16,6 @@ mushroomButton.onclick = () => toggleElement(".mushroom", 'hidden');
 
 let crustButton = document.querySelector('.btn-crust')
 crustButton.onclick = () => toggleElement('.crust', 'crust-gluten-free');
+
+let sauceButton = document.querySelector('.btn-sauce')
+sauceButton.onclick = () => toggleElement('.sauce', 'sauce-white');
