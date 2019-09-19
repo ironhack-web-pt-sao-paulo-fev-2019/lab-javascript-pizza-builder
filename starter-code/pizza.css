@@ -814,6 +814,10 @@ p.description {
     z-index: 30;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .green-pepper.one {
     margin: 200px 0 0 100px;
     -webkit-transform: rotate(22deg);
